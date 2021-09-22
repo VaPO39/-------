@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color:teal;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -29,20 +29,20 @@ body {
   color: #fff;
 }
 
-.item {
+.taschi {
   width: 150px;
   height: 66px;
   border: 1px solid #eee;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 10px 10px 10px rgba(99, 167, 179, 0.5);
   border-radius: 20px;
-  background: #f7f6f7;
+  background: #3d7aec;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #ffffff;
   text-align: center;
   cursor: grab;
 }
 
-.item:active {
+.taschi:active {
   cursor: grabbing;
 }
 
@@ -52,13 +52,22 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #15c8ff 0%, #17ff78 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #ff1c8e 0%, #68e0cf 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #e7ff0d 0%, #8fd3f4 100%);
+}
+.hold{
+  border: 5px solid rgb(255, 255, 255);
+}
+.hide{
+  display: none;
+}
+.hovered{
+  border-top:2px solid rgb(0, 187, 44);
 }
